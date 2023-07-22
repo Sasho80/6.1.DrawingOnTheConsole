@@ -55,3 +55,20 @@ output data we see that the count of dollars depends on which row we are on at t
 printing, i.e. 1 dollar means first row, 3 dollars mean third row and so on. Let's see the following 
 example in detail. We see that the variable of the nested loop is connected with the variable of the 
 outer one. This way our program prints the desired triangle.
+
+05.Example: Square Frame
+Write a program that takes an integer n and draws on the console a square frame with a size of n * n.
+Input   Output   Input  Output       Input    Output 
+4       + – - +  5      + – - – +    6        + – - – - +
+        | – - |         | – - – |             | – - – - |
+        | – - |         | – - – |             | – - – - |
+        + – - +         | – - – |             | – - – - |
+                        + – - – +             + – - – - +
+
+Hints and Guidelines
+We can solve the problem in the following way:
+• We read from the console the number n.
+• We print the upper part: first a + sign, then n-2 times - and in the end a + sign.
+• We print the middle part: we print n-2 rows, as we first print a | sign, then n-2 times - and in 
+the end again a | sign. We can do this with nested loops.
+• We print the lower part: first a + sign, then n-2 times - and in the end a + sign.
