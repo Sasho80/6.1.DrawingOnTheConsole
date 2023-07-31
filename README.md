@@ -83,6 +83,25 @@ Input Output Input Output  Input Output       Input Output
                                    *               * * *
                                                     * * 
                                                      * 
+Hints and Guidelines
+To solve this problem, we need to mentally divide the rhombus into two parts – upper one, which
+also includes the middle row, and lower one. For the printing of each part we will use two separate 
+loops, as we leave the reader to decide the dependency between n and the variables of the loops.
+
+07.Problem: Christmas Tree
+Write a program that takes a number n (1 ≤ n ≤ 100) and prints a Christmas tree with height of n+1.
+Input Output Input Output      Input Output     Input Output 
+1      |       2      |          3     |         4      |
+     * | *          * | *            * | *            * | *
+                   ** | **          ** | **          ** | **
+                                   *** | ***        *** | ***
+                                                   **** | ****
+Hints and Guidelines
+From the examples we see that the Christmas tree can be divided into three logical parts. The first
+part is the stars and the white spaces before and after them, the middle part is |, and the last part is 
+again stars, but this time there are white spaces only before them. The printing can be done with only
+one loop and the new string(…) constructor, which we will use once for the stars and once for the 
+white spaces.
 
  
 
