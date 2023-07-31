@@ -72,3 +72,20 @@ We can solve the problem in the following way:
 • We print the middle part: we print n-2 rows, as we first print a | sign, then n-2 times - and in 
 the end again a | sign. We can do this with nested loops.
 • We print the lower part: first a + sign, then n-2 times - and in the end a + sign.
+
+06.Problem: Rhombus Made of Stars
+Write a program that takes a positive integer n and prints a rhombus made of stars with size n.
+Input Output Input Output  Input Output       Input Output 
+1       *        2    *    3       *           4     *
+                     * *          * *               * *
+                      *          * * *             * * *
+                                  * *             * * * *
+                                   *               * * *
+                                                    * * 
+                                                     * 
+
+ 
+
+
+
+
