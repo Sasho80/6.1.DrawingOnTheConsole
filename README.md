@@ -103,7 +103,30 @@ again stars, but this time there are white spaces only before them. The printing
 one loop and the new string(…) constructor, which we will use once for the stars and once for the 
 white spaces.
 
- 
+08.Problem:Sunglasses
+Write a program that takes an integer n (3 ≤ n ≤ 100) and prints sunglasses with size of 5*n x n as 
+found in the examples:
+Input      Output 
+3
+          ******   ******
+          *////*|||*////*
+          ******   ******
+Input     Output
+4
+          ********    ********
+          *//////*||||*//////*
+          *//////*    *//////*
+          ********    ********
+Input     Output 
+5
+          **********     **********
+          *////////*     *////////*
+          *////////*|||||*////////*
+          *////////*     *////////*
+          **********     ********** 
+Hints and Guidelines
+From the examples we can see that the sunglasses can be divided into three parts – upper, middle 
+and lower one. A part of the code with which the problem can be solved is given below.
 
 
 
