@@ -128,6 +128,49 @@ Hints and Guidelines
 From the examples we can see that the sunglasses can be divided into three parts – upper, middle 
 and lower one. A part of the code with which the problem can be solved is given below.
 
+09.Problem: House
+Write a program that takes a number n (2 ≤ n ≤ 100) and prints a house with size n x n, just as in the 
+examples:
+Input Output  
+2
+      **
+      || 
+Input Output
+ 3     -*-
+       ***
+       | *|       
+Input Output
+4
+     -**-
+     ****
+     |**|
+     |**|
+
+Input Output
+5     --*--
+      -***-
+      *****
+      |*** |
+      |***|    
+![image](https://github.com/Sasho80/6.1.DrawingOnTheConsole/assets/7139995/6a1682f8-c50b-48dc-a2ae-c19b2d65127e)
+Hints and Guidelines
+We understand from the problem explanation that the house is with size of n x n. 
+What we see from the example input and output is that:
+• The house is divided into two parts: roof and base.
+Chapter 6.1. Nested Loops 233
+• When n is an even number, the point of the house is "dull".
+• When n is odd, the roof is one row larger than the base.
+The Roof
+• It comprises of stars and dashes.
+• In the top part there are one or two stars, depending on if n is even or odd (also related to the 
+dashes).
+• In the lowest part there are many stars and no dashes.
+• With each lower row, the stars increase by 2 and the dashes decrease by 2.
+The Base
+• The height is n rows.
+• It is made out of stars and pipes.
+• Each row comprises of 2 pipes – one in the beginning and one in the end of the row, and also
+stars between the pipes with string length of n - 2.
 
 
 
